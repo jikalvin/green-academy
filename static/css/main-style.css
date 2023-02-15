@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@1,300&family=Montserrat+Alternates:wght@300&display=swap');
+
+:root {
+    --moonstone: #5c9eadff;
+    --white: #ffffffff;
+    --polynesian-blue: #064789ff;
+    --paynes-gray: #326273ff;
+    --antiflash-white: #eeeeeeff;
+    --atomic-tangerine: #e39774ff;
+}
+
+.carousel-item{
+    font-family: 'Cormorant', sans-serif;
+    font-size: 18pt;
+    font-weight: 400;
+}
+
+#neubar {
+    background: var(--moonstone);
+  }
+   
+  #neubar .dropdown-menu a:hover {
+    color: #454545;
+  }
+  #neubar .nav-item {
+    margin : auto 4px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 800;
+  }
+  #neubar .nav-item .active {
+    color: var(--polynesian-blue);
+  }
+  #neubar a {
+   
+    padding-left:12px;
+    padding-right:12px;
+  }
+  #neubar .dropdown-menu {
+    background : var(--moonstone);
+  }
+  a.navbar-brand {
+    color: #454545
+  }
