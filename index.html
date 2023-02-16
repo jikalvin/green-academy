@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Green School Academy</title>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <link rel="stylesheet" href="./static/css/main-style.css">
     <script src="https://kit.fontawesome.com/8f4008d6f1.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-</head>
+    <script src="./static/js/beh.js"></script>
+  </head>
 <body>
     <nav class="navbar navbar-expand-sm fixed-top navbar-light" id="neubar">
         <div class="container">
@@ -70,7 +72,7 @@
     </nav>
 
       <!-- Carousel wrapper -->
-    <div id="carouselBasicExample" class="carousel slide carousel-fade" data-mdb-ride="carousel">
+    <div id="carouselBasicExample" class="carousel slide carousel-fade h-100" data-mdb-ride="carousel">
     
         <!-- Inner -->
         <div class="carousel-inner">
@@ -105,12 +107,12 @@
     
         <!-- Controls -->
         <button class="carousel-control-prev" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
         </button>
         <button class="carousel-control-next" type="button" data-mdb-target="#carouselBasicExample" data-mdb-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
         </button>
   </div>
   <!-- Carousel wrapper -->
@@ -189,8 +191,91 @@
   </div>
     
 
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script> -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+
+  <!-- Problem Section -->
+  <div class="container px-5 py-5 my-5">
+    <div class="row">
+      <div class="col">
+        <img src="./assets/images/problem.png" alt="Problem picture" class="w-100" >
+      </div>
+      <div class="col section-text">
+        <h3 class="text-primary">THE PROBLEM</h3>
+        <h3>STATE OF THE MIND</h3>
+
+        <p class="fw-custom">
+            More than ⅔ of children around the world have seen or witnessed an act of violence (WHO) resulting in trauma and mental health disorders. Today, 75% of youth in need of Mental Health do not receive it. The Mental Health Crisis is growing among youth and adolescents. When these issues go unaddressed at a young age, 
+            studies have shown negative outcomes are a result which continue well into adulthood
+        </p>
+        <p class="fw-custom">
+            Depression, anxiety and low self worth are direct results of trauma and victimization among children and teens. Without intervention, youth are more likely to perform poorly or drop out of school, 
+            demonstrate aggressive behavior and/or participate in substance abuse
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Solution Section -->
+  <div class="px-5 h-100 py-5 my-5 solution">
+    <div class="row">
+      <div class="col fw-custom sol py-5 px-5">
+        <h3 class="text-primary">OUR SOLUTION</h3>
+        <h3>TSG ARTS RESIDENCY PROGRAM</h3>
+        <p>
+          The arts are an important platform to provide cognitive development and an emotional outlet for youth which can mitigate the cycle of violence.
+        </p>
+        <p>
+          The arts are an outlet for positive development and self expression. Our Social Emotional Learning (SEL) & Mindfulness-based Arts Residency Program teaches students to find the ‘good’ first within themselves and then connect it to what surrounds them. We bring this program into schools, community centers or hospitals to empower students with positive mindset, art expression and activism.
+        </p>
+      </div>
+      <div class="col"></div>
+    </div>
+  </div>
+
+    <!-- What we do Section -->
+    <div class="container px-5 py-5 my-5">
+      <div class="row">
+        <div class="col">
+          <img src="./assets/images/what-we-do.png" alt="Problem picture" class="w-100" >
+        </div>
+        <div class="col section-text">
+          <h3 class="text-primary">WHAT WE DO</h3>
+          <h3>FIND, CREATE AND SHARE THE ‘GOOD’</h3>
+  
+          <p class="fw-custom">
+            Through our Social Emotional Learning and Mindfulness-based Arts Residency Program, Public Art Events and overall mission, we transcend the belief that ‘good’ means the same to all of us – and that is what connects us as human beings.
+          </p>
+          <p class="fw-custom">
+            With positivity comes hope and with hope brings resilience, gratitude and humanity. Art is the vehicle we use to bring this positivity to our future leaders, our students.
+          </p>
+          <p>
+            <button class="btn btn-primary">Learn More</button>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Solution Section -->
+  <div class="px-5 h-100 py-5 my-5 solution">
+    <div class="row">
+      <div class="col fw-custom sol py-5 px-5">
+        <h3 class="text-primary">INNOVATIVE CURRICULUM</h3>
+        <h3>GLOBAL PHOTO BLOG</h3>
+        <p>
+          What is innovative about TSG is our crowd-sourced curriculum designed have the world teach our students about different perspectives of good. Through our blog, people from across the globe are sharing their idea of ‘the simple good’ in order to inspire our youth via photography and storytelling.
+        </p>
+        <p>
+          This helps students to discover a world beyond their own, develop empathy, global competency but also challenges them to think about their own meaning of good to empower positivity to impact their community. Check out these stories of positivity from across the globe and submit your own!
+        </p>
+        <p>
+          <button class="btn btn-primary">Visit Photo Blog</button>
+        </p>
+      </div>
+      <div class="col"></div>
+    </div>
+  </div>
+  
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script> -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
 </body>
 </html>
