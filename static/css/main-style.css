@@ -9,6 +9,25 @@
     --atomic-tangerine: #e39774ff;
 }
 
+.section-text{
+    font-size: 10pt;
+    font-weight: 400;
+}
+
+.solution{
+  background-image: url(../../assets/images/problem.png);
+  background-size: cover;
+}
+
+.solution .sol{
+  background: var(--white);
+  border-radius: 10px;
+  opacity: 0.8;
+}
+
+.fw-custom{
+  font-weight: 500;
+}
 .carousel-item{
     font-family: 'Cormorant', sans-serif;
     font-size: 18pt;
