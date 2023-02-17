@@ -61,3 +61,67 @@
     color: #454545
   }
 
+  .footer{
+    background: var(--moonstone);
+    padding: 85px 0;
+
+  }
+  .single-content{
+    padding: 115px 0;
+    text-align: center;
+
+  }
+  .single-box p{
+    color: white;
+    line-height: 1.9;
+
+  }
+  .single-box h3{
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    
+  }
+
+.single-box ul{
+  list-style: none;
+  padding: 0;
+}
+
+.boxs h2{
+  padding-top: 15px;
+  color: white;
+}
+
+.input-group{
+  margin-top: 10px;
+  color: white;
+}
+
+.socials i{
+  font-size: 40px;
+  color: var(--polynesian-blue);
+}
+
+.single-box ul li a{
+  text-decoration: none;
+  color: white;
+  line-height: 2.5;
+  font-weight: 100;
+}
+
+.single-box h2, h5{
+  color: white;
+  font-size: 25px;
+  font-weight: 700;
+
+}
+.main_pages li a h5{
+  line-height: 3.0;
+  color: white;
+  font-weight: 700;
+}
+
+.custom-white{
+  color: var(--white);
+}
