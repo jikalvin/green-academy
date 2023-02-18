@@ -125,3 +125,24 @@
 .custom-white{
   color: var(--white);
 }
+
+.impact{
+  padding: 60px;
+}
+
+.impact h1{
+  padding-bottom: 30px;
+  color: #fc4634;
+  font-size: 45px;
+  font-family: "Brandon Grotesque";
+  font-weight: 400;
+}
+
+.impact h2{
+  font-weight: 400;
+  font-size: 80px;
+  color: var(--polynesian-blue);
+  font-family: "Earth Rich";
+  margin-top: 0;
+  margin-bottom: 7px;
+}
