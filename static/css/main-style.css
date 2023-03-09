@@ -147,3 +147,11 @@
   margin-bottom: 7px;
 }
 
+/* carousel */
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+h2 .myCarouse{
+  color: #fc4634;
+}
